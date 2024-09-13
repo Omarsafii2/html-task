@@ -1,0 +1,19 @@
+.table1{
+    border: 1px solid black;
+}
+.ta1{
+    width: 100%;
+}
+
+.table2{
+    border: 1px solid black;
+}
+
+.ta2{
+    width: 50%;
+}
+
+.border1{
+    border: 1px solid red;
+    width: 200px;
+}

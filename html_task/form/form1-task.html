@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        .page{
+            margin: 50px;
+        }
+        .width-form{
+            margin: 10px;
+            width: 80%;
+        }
+        body{
+            background-color: rgb(62, 15, 138);
+        }
+        .form{
+            background-color: rgb(28, 8, 70);
+            padding: 20px;
+        }
+        *{
+            color: aliceblue;
+        }
+        .button{
+            width: 80%;
+            background-color: green;
+
+        }
+        .lab{
+            margin: 10px;
+        }
+     </style>
+
+</head>
+<body>
+
+    <div class="page">
+        <h1>amman coding academy survey form </h1>
+        <p>thanks for taking time to help</p>
+
+        <div class="form">
+         <form action=""></form>
+             <label for="name" class="lab">name</label>
+             <br>
+              <input  class="width-form"  type="text" id="name" placeholder="Enter your name" required>
+              <br>
+              <label for="mail" class="lab">Email</label>
+             <br>
+              <input type="email" id="mail" placeholder="enter your email" class="width-form" required>
+              <br>
+              <label for="age" class="lab">Age (optional)</label>
+              <br>
+              <input type="text" id="age" placeholder="age" class="width-form">
+              <br>
+              <label for="select" class="lab">what is your feature of codepen?</label>
+              <br>
+              <select id="select" class="width-form">
+                <option value="1" >1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <br>
+              <label for="check" class="lab">what would you like to see improved in my survey?</label>
+               <br>
+                <input type="checkbox" class="lab" id="css">
+                <label for="css" > css need to be comlex</label><br>
+                
+                <input type="checkbox" class="lab" id="java">
+                <label for="java" > use some javascript</label><br>
+                
+                <input type="checkbox" class="lab" id="no" >
+                <label for="no" > no change need</label><br><br>
+                    
+                <br>
+                <label for="area" class="lab">Any comment or suggestion</label>
+                <br>
+                <textarea id="area" placeholder="enter your comment" class="width-form"></textarea>
+                <br>
+                <input type="submit"  class="button">
+            </form>
+        </div>
+
+    </div>
+
+   
+    
+</body>
+</html>
